@@ -1,0 +1,1342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/newcss.css" />
+    <!-- <link rel="stylesheet" href="assets/index.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+
+  <body oncontextmenu="return false">
+    <!-- Loading Spinner -->
+    <div id="loader" class="loader">
+      <div class="spinner"></div>
+    </div>
+
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="./assets//img/LOGO.png" alt="LOGO" style="height: 40px; width: auto;">
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i>Experience
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Contact-Me
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <div class="tooltip-container">
+            <i class="uil uil-moon change-theme" id="theme-button"></i>
+            <span class="tooltip-text">change theme</span>
+          </div>
+        
+          <!-- Navbar Toggle -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main-->
+
+    <main class="main">
+      <!--========================= Home =====================-->
+
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <!-- Social Links -->
+            <div class="home__social">
+              <a href="https://www.linkedin.com/in/yahyahanda/" target="_blank" class="home__social-icon">
+                <i class="uil uil-linkedin-alt home__icon"></i>
+              </a>
+              <a href="https://github.com/Yahya08?tab=repositories" target="_blank" class="home__social-icon">
+                <i class="uil uil-github-alt home__icon"></i>
+              </a>
+            </div>
+      
+            <!-- Animated Lottie Image -->
+            <div class="home__img">
+              <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+              <dotlottie-player 
+                src="https://lottie.host/bcf392d3-2060-4e1c-b919-3b410eca2b22/fxChuwjd3z.json" 
+                background="transparent" 
+                speed="1" 
+                style="width: 300px; height: 300px;" 
+                loop 
+                autoplay>
+              </dotlottie-player>
+            </div>
+      
+            <!-- Home Data -->
+            <div class="home__data">
+              <h1 class="home__title">Yahya <span class="Handarestanto">Handarestanto</span></h1>
+              <!-- <h3 class="home__subtitle">Information Science Engineering Student</h3> -->
+            
+              <!-- Tempat untuk efek typewriter -->
+              <h3 id="typewriter-effect" class="home__subtitle">
+                <span id="cursor"></span> <!-- Kursor untuk efek berkedip -->
+              </h3>
+            
+              <p class="home__description">
+                4 Tahun lulus di Univeristas 
+                <strong>Amikom Yogyakarta</strong>, Prodi Informatika.
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact me<i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <!--======================= About========================-->
+
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+          <img src="assets/img/yahya.png" alt="" class="about__img" />
+
+          <div class="about__data">
+            <p class="deskripsi about__description">
+              Saya merupakan lulusan sarjana Jurusan Informatika dari universitas
+              Amikom Yogyakarta. Seorang mahasiswa yang antusias dan bersemangat
+              dengan minat yang kuat dalam pengembangan diri dan pencapaian tujuan
+              karir. Saya memiliki pengalaman 3 bulan magang di PT.Git Solutions posisi
+              sebagai full stuck developer 
+            </p>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">4+</span>
+                <span class="about__info-name">Year <br />Informatika</span>
+              </div>
+
+              <div>
+                <span class="about__info-title">05+</span>
+                <span class="about__info-name"
+                  >
+                  Projects</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">03</span>
+                <span class="about__info-name">Months <br />experience</span>
+              </div>
+            </div>
+
+            <div class="about__buttons">
+              <a download="" href="./assets/CV-YAHYA.H.pdf" class="button button--flex">
+                Download CV<i class="fas fa-download button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+             <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <div class="skillcontent"> 
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+
+            <div class="skills__container container grid">
+                
+                    <!--====================== SKILLS 1 =============================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-code-branch skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Programming Languages</h1>
+                                <span class="skills__subtitle">Several years of experience</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Python</h3>
+                                    <div class="skills__number">75%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__python"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Java</h3>
+                                    <div class="skills__number">40%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__java"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">C#</h3>
+                                    <div class="skills__number">40%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__charp"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">C++</h3>
+                                    <div class="skills__number">80%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__cplusplus"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">C</h3>
+                                    <div class="skills__number">60%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__c"></div>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">php</h3>
+                                    <div class="skills__number">40%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__php"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+               
+
+                <!--====================== SKILLS 2 =============================-->
+                <div class="skills__content skills__open">
+                    <div class="skills__header">
+                        <i class="uil uil-atom skills__icon"></i>
+
+                        <div>
+                            <h1 class="skills__title">Technologies</h1>
+                            <span class="skills__subtitle">Several years of experience</span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Git</h3>
+                                <div class="skills__number">90%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__git"></div>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">React Vite</h3>
+                                <div class="skills__number">60%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__reactvite"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">laravel</h3>
+                                <div class="skills__number">40%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__laravel"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Bootstrap</h3>
+                                <div class="skills__number">60%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__bootstrap"></div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Docker</h3>
+                                <div class="skills__number">85%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__docker"></div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Kubernetes</h3>
+                                <div class="skills__number">30%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__kubernetes"></div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+
+
+                    <!--====================== SKILLS 3 =============================-->
+                <div class="skills__content skills__open">
+                    <div class="skills__header">
+                        <i class="uil uil-database skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Database Systems</h1>
+                            <span class="skills__subtitle">Several years of experience</span>
+                        </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <div class="skills__number">80%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__mysql"></div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">PostgreSQL</h3>
+                                    <div class="skills__number">70%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__postgresql"></div>
+                                </div>
+                            </div> -->
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"> SQL Server</h3>
+                                    <div class="skills__number">75%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__mssqlserver"></div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MongoDB</h3>
+                                    <div class="skills__number">80%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__mongo"></div>
+                                </div>
+                            </div> -->
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+      <!--==================== Qualifications ==================-->
+
+      <section
+        class="qualification__section service__section"
+        id="qualification"
+      >
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My personal journey</span>
+
+        <div
+          class="qualification__container container grid services__container"
+        >
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="education uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--====== Qualification Content 1 ======-->
+            <div
+              class="qualification__content qualifiation__active services__content"
+              data-content
+              id="education"
+            >
+              <!--====== Qualification 1 ======-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Informatika</h3>
+                  <span class="qualification__subtitle"
+                    > Universitas Amikom Yogyakarta <br /></span
+                  >
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021 - 2025
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link services__button"
+                  >
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+                  <div class="services__modal">
+                    <div class="services__modal-content">
+                      <h4 class="services__modal-title">
+                        Summary :
+                      </h4>
+                      <i class="uil uil-times services__modal-close"></i>
+                      <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>
+                            Matkul Konsentrasi : Pemrograman baik website, basis data, hingga AI.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>IPK : 7.4</p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>Pengalaman : Mengikuti Amikom Computer Club (AMCC) Devisi backend, 4 Asisten Praktikum, 
+                            Hackathon Amicta, Magang Fullstuck Developers di PT.Git Solutions, </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--====== Qualification 2 ======-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">SMA Sains Averos</h3>
+                  <span class="qualification__subtitle"
+                    >Sorong, Papua Barat</span
+                  >
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    2018 - 2021
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link services__button"
+                  >
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+                  <div class="services__modal">
+                    <div class="services__modal-content">
+                      <h4 class="services__modal-title">
+                         Summary :
+                      </h4>
+                      <i class="uil uil-times services__modal-close"></i>
+                      <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>
+                            Mata Pelajaran : Sains, Robotika, Pemrorgaman meliputi Pemrograman Web, Pemrograman Game, Matematika, dan design.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>Rata-Rata 88.5</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ====== Qualification 3 ======
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">College</h3>
+                  <span class="qualification__subtitle"
+                    >Canara Enginnering College, Manglore</span
+                  >
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021 - 2025
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link services__button"
+                  >
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+                  <div class="services__modal">
+                    <div class="services__modal-content">
+                      <h4 class="services__modal-title">College Summary :</h4>
+                      <i class="uil uil-times services__modal-close"></i>
+                      <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            Studying core subjects of IT including DSA, Embedded
+                            systems, Design analysis and algorithm, Operating
+                            systems, and Computer architecture .
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>Scored an aggregate of 8.50 CGPA till now.</p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            Student coordinator in media and
+                            publication club of the college.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            Club Advisor for GeekHub.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            CodeBlaze hackathon winners under open innovation.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            Runners in Edu-Vitality Hackathon in the track of AI in Education.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            Finalist in Dark Pattern Buster Hackathon conducted by Department of Consumer Affairs of India.
+                          </p>
+                        </li>
+                        
+                      </ul>
+                    </div>
+                  </div>
+                </div> -->
+
+                <!-- <div>
+                  <span class="qualification__rounder"></span>
+                  
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="articles section" id="experience">
+        <div class="article1"> 
+            <h2 class="section__title">Experience</h2>
+            <span class="section__subtitle">My experience</span>
+            <div class="articles__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== ARTICLE 1 ====================-->
+
+                    <div class="articles__content swiper-slide">
+                      <div class="card">
+                          <a >
+                              <h4>Magang di PT.Git Solutions</h4>
+                              <div class="card__body">
+                                <div class="qualification__calender">
+                                  <i class="uil uil-calendar-alt"></i>
+                                  Oct 2024 - Dec 2024
+                                </div>
+                                  <img  class="php_experience" >
+                                  <p class="journal">Fullstuck Developer</p>
+                                  <div class="journal1">
+                                    <ul>
+                                        <li>
+                                            Membangun Aplikasi Movie Online Berbasis Web menggunakan
+                                            React, MongoDB, dan Express.js
+                                        </li>
+                                        <li>
+                                            Mengelola backend menggunakan MongoDB Atlas, memastikan
+                                            aplikasi berjalan lancar dengan implementasi CRUD
+                                        </li>
+                                        <li>
+                                          Membuat sistem autentikasi pengguna dan Menggunakan Git dan GitHub untuk version control.
+                                        </li>
+                                        <li> 
+                                          Mengoptimalkan performa query MongoDB untuk meningkatkan kecepatan loading data.
+                                        </li>
+                                        
+                                        
+                                    </ul>
+                                </div>
+                                
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+
+
+
+                    <div class="articles__content swiper-slide">
+                        <div class="card">
+                            <a >
+                                <h4>AMCC 2021</h4>
+                                <p>Pelatihan dan Ogranisasi</p>
+                                <div class="qualification__calender">
+                                  <i class="uil uil-calendar-alt"></i>
+                                  2021 - 2022
+                                </div>
+                                <div class="card__body">
+                                    <img  class="php_experience" >
+                                    <p class="journal">Devisi Backend</p>
+                                    <div class="journal1">
+                                      <ul>
+                                        <li>
+                                          Mengikuti kegiatan pembelajaran tentang Backend seperti PHP,Laravel.
+                                        </li>
+                                        <li>
+                                          Belajar pemrograman dasar dalam membangun sebuah website.
+                                        </li>
+                                        <li>
+                                          Berkolaborasi dengan tim frontend untuk integrasi API yang efisien.
+                                        </li>
+                                        <li>
+                                          Berkolaborasi dengan tim untuk mmebuat project akhir.
+                                        </li>
+                                        <li>
+                                          Belajar Mengelola database menggunakan Mysql Server dan Php.
+                                        </li>
+
+                                      </ul>
+                                      
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <!--==================== ARTICLE 2 ====================-->
+                    <div class="articles__content swiper-slide">
+                        <div class="card">
+                            <a >
+                                <h4><img class="hackathon" > Hackathon competition </h4>
+                                <p class="tipe-kerja"> Kompetisi</p>
+                                <div class="qualification__calender">
+                                  <i class="uil uil-calendar-alt"></i>
+                                  1 month 2023
+                                </div>
+                                <div class="journal1">
+                                  <ul>
+                                    <li>
+                                      Menentukan tema dari suatu bisnis startup dan di berikan waktu dalam waktu sebulan
+                                      sudah harus berhsil membuat ide rancangan bisnis.
+                                    </li>
+                                    <li>
+                                      Membangun sebuah tampilan Web yang menarik pada suatu bisnis
+                                      yang bernama SEJUBI, website untuk membantu pebisnis pemula dalam membangun suatu bisnis
+                                      dan legalitas.
+                                    </li>
+                                    
+                                  </ul>
+                                  
+                                </div>
+                              </a>
+                        </div>
+                    </div>
+    
+                    <!--==================== ARTICLE 3 ====================-->
+                    <div class="articles__content swiper-slide">
+                        <div class="card">
+                            <a >
+                                <h4>Asisten Praktikum Komunikasi Data </h4>
+                                <p class="tipe-kerja"> Kontrak 6 Bulan </p>
+                                <div class="qualification__calender">
+                                  <i class="uil uil-calendar-alt"></i>
+                                  March 2023 - July 2023
+                                </div>
+                                <div class="journal1">
+                                  <ul>
+                                    <li>
+                                      Menjelaskan konsep dasar komunikasi data, jaringan komputer, dan protokol komunikasi.
+                                    </li>
+                                    <li>
+                                      Membantu mahasiswa dalam simulasi proyek berbasis IoT menggunakan 
+                                      Proteus, seperti pengendalian LED, sensor, Arduino Uno, dan komponen lainnya.
+                                    </li>                              
+                                    <li>
+                                      Menyampaikan materi teori dan praktik tentang komunikasi data kepada mahasiswa dan juga membantu dosen dalam 
+                                      penilaian tugas akhir mahasiswa.
+                                    </li>                                    
+                                  </ul>                                  
+                                </div>
+                              </a>
+                        </div>
+                    </div>
+    
+                    <!--==================== ARTICLE 4 ====================-->
+                    <div class="articles__content swiper-slide">
+                        <div class="card">
+                            <a >
+                                <h4> Asisten Praktikum Sistem Operasi </h4>
+                                <p class="tipe-kerja"> Kontrak 6 Bulan </p>
+                                <div class="qualification__calender">
+                                  <i class="uil uil-calendar-alt"></i>
+                                  March 2023 - Agt 2023
+                                </div>
+                                <div class="journal1">
+                                  <ul>
+                                    <li>
+                                      Membantu dalam pengajaran dan menyampaikan materi tentang Sistem operasi Linux Ubuntu di Tiap pertemuanya.
+                                    </li>
+                                    <li>
+                                      Membimbing mahasiswa dalam penggunaan command line, manajemen file, proses, dan jaringan di lingkungan Linux.
+                                    </li>
+                                    <li>
+                                      Membantu dosen dalam penilaian tugas-tugas Mahasiswa di setiap pertemuannya.
+                                    </li>
+                                    <li>
+                                      belajar Mengelola hak akses dan izin file, Menulis dan mengeksekusi skrip bash untuk otomatisasi tugas.
+                                    </li>
+                                    
+                                  </ul>
+                                  
+                                </div>
+                              </a>
+                        </div>
+                    </div>
+    
+                    <!--==================== ARTICLE 5 ====================-->
+                    <div class="articles__content swiper-slide">
+                        <div class="card">
+                            <a>
+                                <h4>Asisten Bigdata & Predictive Analysis</h4>
+                                <p class="tipe-kerja"> Kontrak 6 Bulan </p>
+                                <div class="qualification__calender">
+                                  <i class="uil uil-calendar-alt"></i>
+                                  March 2024 - Agt 2024
+                                </div>
+                                <div class="journal1">
+                                  <ul>
+                                    <li>
+                                      Menjelaskan tentang konsep Big Data, Machine Learning, dan Predictive Analysis kepada mahasiswa.
+                                    </li>
+                                    <li>
+                                      Membantu mahasiswa dalam pengolahan data, pembuatan model prediksi, evaluasi performa model.
+                                    </li>
+                                    <li>
+                                      Mengevaluasi kode program, visualisasi data, dan laporan analisis prediktif.
+                                    </li>
+                                    <li>
+                                      Memberikan saran untuk meningkatkan akurasi model dan interpretasi hasil                  
+                                    </li>                              
+                            
+                                  </ul>
+                                  
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Add navigation arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+    
+                <!-- Add pagination -->
+                <script src="./assets/swiper-bundle.min.js"></script>
+                
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--=================== Portfolio ===================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+
+
+            
+            
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/movie-list.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Movie playlist
+                </h3>
+                <p class=" portofolio portfolio__description">
+                  Aplikasi berbasis Website di kembangkan menggunakan HTML, CSS dan Javascript. Pengguna dapat melakukan  
+                  pemesanan film Series movie. pengguna juga dapat melakukan pembelian ticket, pemilihan jadwal, melihat triler.
+                  Dan website ini sudah responsive di semua ukuran device pengguna.
+                </p>
+                <a
+                  href="https://github.com/Yahyahanda08/Bioskop-Movie.git"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <a
+                  href="https://bioskop-movie.vercel.app/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+
+            <!-- ------------------------portfollio 1-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/kurnia-catering.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Kurnia Cattering
+                </h3>
+                <p class=" portofolio portfolio__description">
+                  Aplikasi berbasis Website di kembangkan menggunakan HTML, CSS dan React vite Javascript. pengguna dapat melakukan  
+                  pemesan berbagai jenis varian makanan dan minuman dan terdapat fitur pemesanan, riwayat, dan pembayaran. 
+                  Pengguna juga bisa melakukan checkout, pembelian, dan dapat melihat history pemesanan. Untuk backend nya 
+                  menggunakan Mysql sever dan Express js.
+                </p>
+                <a
+                  href="https://github.com/Yahya08/kurnia-cateringv2"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <!-- <a
+                  href="https://darksurfer.streamlit.app/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a> -->
+              </div>
+            </div>
+            <!-- ------------------------portfollio 2-------------------- -->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/cooking canvas.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Cooking Canvas
+                </h3>
+                <p class="portofolio portfolio__description">
+                  Aplikasi berbasis situs web, yang menyediakan berbagai jenis resep makanan, 
+                  dan user dapat mengunggah resep, mengedit resep, dan menghapus resep dan juga memiliki fitur komentar.
+                  Website yang responsivedi semua Ukuran layar device 
+                  day!
+                </p>
+                <a
+                  href="https://github.com/Yahyahanda08/cooking-canvas"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <a
+                  href="https://medium.com/@yahyahanda.r/cooking-canvas-membangun-website-tutorial-masak-yang-akurat-dan-teruji-de817a911c85"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- ------------------------portfollio 3-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/portfolio2.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Lyrico Music</h3>
+                <p class=" portofolio portfolio__description">
+                  lyrico adalah website yang dikembangkang menggunakan HTML, CSS dan Javascript React.
+                  menciptakan kembali tampilan dan fitur dari spotify, yang memungkinkan pengguna melakukan 
+                  pencarian, menelusuri dan memutar music, membuat playlist, dan menemukan music yang baru. 
+                  Memastikan design responsive di semua ukuran device. 
+                  
+                </p>
+                <a
+                  href="https://github.com/Yahya08/Lyrico"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <!-- <a
+                  href="https://venkateeshh.github.io/Spotify-Clone/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a> -->
+              </div>
+            </div>
+            <!-- ------------------------portfollio 4-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/diamondease.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Diamondease</h3>
+                <p class=" portofolio portfolio__description">
+                  website untuk melakukan top up games menggunakan framework React.
+                </p>
+                <a
+                  href="https://github.com/diamondease/diamondease"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <a
+                  href="https://diamondease08.vercel.app/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/buyyer-prediction.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class=" portofolio portfolio__title">E-Commerce Buyyer Behavior Prediction</h3>
+                <p class="portfolio__description">
+                  E-commerce buyer behavior prediction yaitu memprediksi perilaku konsumen dalam pembelian di platform
+                  e-commerce. predicksi menggunakan Support Vector Machine dan Random Forest algoritma. Proses spliting menggunakan 
+                  5-fold dan menghasilkan akurasi terbaik di dapatkan oleh Random forest sebesar 90%. 
+                </p>
+                <a
+                  href="https://github.com/Yahya08/E-COMMERCE-BUYYER-BEHAVIOR-PREDICTION"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <!-- <a
+                  href="https://www.linkedin.com/posts/venkatesh-kamath-_algorithmdesign-sortingvisualizer-javaprojects-activity-7095437035125043200-fWDl?utm_source=share&utm_medium=member_desktop"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a> -->
+              </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/x-ray.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Deep Learning image klasifikasi Menggunakan layer neuron dan SGD</h3>
+                <p class=" portofolio portfolio__description">
+                  klasifikasi Penomonia x-ray menggunakan CNN dengan metode 32 Layer, 46 Layer Conv2D, SGD, LearningRate,
+                  TransferLearning, Regularisasi L2 dan Batch Normalization untuk Mencegah terjadi nya overfitting. hasil yang didapatkan yaitu dengan menggunakan metode
+                  layer convd 32 lebih bagus dari pada metode lainnya dengan menghasilkan akurasi test 97.6% . 
+                </p>
+                <a
+                  href="https://github.com/Yahya08/Deeplearning-image-clasification-toolkid-and-32-layer-Conv2D."
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <!-- <a
+                  href="https://www.linkedin.com/posts/venkatesh-kamath-_algorithmdesign-sortingvisualizer-javaprojects-activity-7095437035125043200-fWDl?utm_source=share&utm_medium=member_desktop"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a> -->
+              </div>
+
+              
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/pasien.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Clusterisasi dan klasifikasi data pasien rumah sakit</h3>
+                <p class=" portofolio portfolio__description">
+                  Awal kali data tersebut belum memiliki label dan untuk supaya berlabel maka kami melakukan clusterisasi 
+                  (K-mean Elbow & PCA) berdasarkan
+                  Usia, BMI, waktu di ICU, dan Elective Surgery dan menghasilkan 3 cluster utama. 
+                  Setelah di cluterisasi maka akan di lanjutkan proses klasifikasi menggunakan Logistic regresion 0.99% , 
+                  Random Forest yang di optimalisasi oleh tunning, untuk hasil Random forest yang terbaik menghasilkan akurasi 0.996%. 
+                </p>
+                <a
+                  href="https://github.com/Yahya08/Clusterisasi-dan-Klasifikasi-Unlabaled_data.git"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <!-- <a
+                  href="https://www.linkedin.com/posts/venkatesh-kamath-_algorithmdesign-sortingvisualizer-javaprojects-activity-7095437035125043200-fWDl?utm_source=share&utm_medium=member_desktop"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a> -->
+              </div>
+
+              
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/deeplearning.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Deep Learning image klasifikasi Menggunakan Transfer Learning and 46 layer ConVD</h3>
+                <p class=" portofolio portfolio__description">
+                  klasifikasi gambar jenis hewan menggunakan deeplearning dengan metode 32 Layer Conv2D, 46 Layer Conv2D, Adam optimasi, LearningRate,
+                  TransferLearning, Regularisasi L2 dan Batch Normalization untuk Klasifikasi Biner. hasil yang didapatkan yaitu dengan menggunakan metode
+                  Regulasi dan BatchNormalization akurasi yang didapatkan meningkat sebesar 3 hingga 4% dan juga semakin menambah layer Conv2D 
+                  tidak berarti akurasi akan semakin bagus. 
+                </p>
+                <a
+                  href="https://github.com/Yahya08/Deeplearning-image-clasification-toolkid-and-32-layer-Conv2D."
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <!-- <a
+                  href="https://www.linkedin.com/posts/venkatesh-kamath-_algorithmdesign-sortingvisualizer-javaprojects-activity-7095437035125043200-fWDl?utm_source=share&utm_medium=member_desktop"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a> -->
+              </div>
+
+              
+            </div>
+
+
+
+
+
+
+            
+
+
+            <!-- ------------------------portfollio 5-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/BELLAVITA.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Bellavita shope</h3>
+                <p class="portofolio portfolio__description">
+                  Bellavita adalah website yang dikembangkang menggunakan HTML, CSS dan Javascript.
+                  menciptakan tampilan dan fitur seperti di toko, yang memungkinkan pengguna melakukan 
+                  pencarian, pembelian. Memastikan design responsive di semua ukuran device.
+                </p>
+                <a
+                  href="https://github.com/Yahyahanda08/parfum-ecommerce"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <a
+                  href="https://parfum-ecommerce-phi.vercel.app/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- add arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!-- add pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--===================== Contact Me =====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-calling contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Contact Me</h3>
+                <span class="contact__subtitle"
+                  ><a href="tel:6362243314"></a>+6282248655686</span
+                >
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope-minus contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle"
+                  >yahyahanda08@gmail.com</span
+                >
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle"
+                  >Sleman, DIY</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <form id="contactForm" class="contact__form grid">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="name" class="content__label">Name</label>
+                <input type="text" id="name" name="name" class="contact__input" required />
+              </div>
+          
+              <div class="contact__content">
+                <label for="email" class="content__label">Email</label>
+                <input type="email" id="email" name="email" class="contact__input" required />
+              </div>
+            </div>
+          
+            <div class="contact__content">
+              <label for="message" class="content__label">Message</label>
+              <textarea name="message" id="message" cols="0" rows="7" class="contact__input" required></textarea>
+            </div>
+          
+            <div>
+              <div class="tooltip-container">
+                <button type="submit" class="button button--flex">
+                  Send Message
+                  <i class="uil uil-message button__icon"></i>
+                </button>
+                <span class="tooltip-text">Click to send your message</span>
+              </div>              
+            </div>
+          </form>
+          
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer" id="footer">
+      <div class="footer__bg">
+          <div class="footer__container container grid">
+              <div style="display: flex; flex-direction: column; align-items: center;">
+                  <h2 class="footer__title">YH</h2>
+                  <span class="footer__subtitle">Data scientist and Frontend </span>
+              </div>
+
+              <ul class="footer__links" style="align-self: center;">
+                  <li>
+                      <a href="#home" class="footer__link">Home</a>
+                  </li>
+                  <li>
+                      <a href="#expertise" class="footer__link">About</a>
+                  </li>
+
+                  <li>
+                      <a href="#portfolio" class="footer__link">Skills</a>
+                  </li>
+
+                  <li>
+                      <a href="#contact" class="footer__link">Qualification</a>
+                  </li>
+
+                  <li>
+                    <a href="#contact" class="footer__link">Experience</a>
+                  </li>
+
+                  <li>
+                    <a href="#contact" class="footer__link">Projects</a>
+                  </li>
+
+                  <li>
+                    <a href="#contact" class="footer__link">Contact-Me</a>
+                  </li>
+              </ul>
+
+              <div class="footer__socials" style="align-self: center;">
+                  <a href=" " class="footer__social" target="_blank">
+                      <i class="uil uil-twitter-alt"></i>
+                  </a>
+
+                  <a href="https://medium.com/@yahyahanda.r" target="_blank"
+                      class="footer__social">
+                      <i class="uil uil-medium-m"></i>
+                  </a>
+
+                  <a href="https://www.linkedin.com/in/yahyahanda/" target="_blank" class="footer__social">
+                      <i class="uil uil-linkedin-alt"></i>
+                  </a>
+              </div>
+          </div>
+
+          <p class="footer__copy" style="margin-top: 10px;">&#169; yahyahanda. All rights reserved.</p>
+      </div>
+  </footer>
+    <!--================== SCROLL TOP ==================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+    <script src="assets/ptj.js"></script>
+  </body>
+</html>
