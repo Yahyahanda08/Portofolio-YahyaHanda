@@ -253,8 +253,6 @@ document.getElementById('contactForm').addEventListener('submit', function(event
   window.location.href = mailtoLink;
 });
 
-
-
 document.addEventListener('DOMContentLoaded', function() {
   // Menyembunyikan spinner setelah 3 detik
   const loader = document.getElementById("loader");

@@ -244,14 +244,12 @@ img {
   color: var(--first-color-alt);
 }
 
-
-
-
 /* Tooltip Styling */
 .tooltip-container {
   position: relative;
   display: inline-block;
   cursor: pointer;
+  
 }
 
 .tooltip-text {
@@ -260,11 +258,12 @@ img {
   transform: translateX(-50%);
   background-color: black;
   color: white;
-  padding: 6px 10px;
+  padding: 8px 10px;
   border-radius: 5px;
   font-size: 12px;
   white-space: nowrap;
   opacity: 0;
+  
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
@@ -278,6 +277,7 @@ img {
 .tooltip-container:hover .tooltip-text {
   opacity: 1;
   visibility: visible;
+  padding:15px;
 }
 
 /* Tooltip di Atas untuk Layar Kecil */
@@ -298,18 +298,6 @@ img {
 .dark-theme .change-theme {
   color: yellow;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Show Menu */
 .show-menu {
@@ -951,13 +939,14 @@ img {
   cursor:pointer;
   border: none;
 }
-.tooltip-container {
+/* .tooltip-container {
   position: relative;
   display: inline-block;
-}
+  
+} */
 
 .tooltip-text {
-  position: absolute;
+  /* position: absolute; */
   bottom: 120%; /* Menempatkan tooltip di atas tombol */
   left: 50%;
   transform: translateX(-50%);
@@ -972,7 +961,7 @@ img {
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
-.tooltip-text::after {
+/* .tooltip-text::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -981,11 +970,13 @@ img {
   border-width: 6px;
   border-style: solid;
   border-color: black transparent transparent transparent;
-}
+  padding: 20px;
+} */
 
 .tooltip-container:hover .tooltip-text {
   opacity: 1;
   visibility: visible;
+  padding: 20px;
 }
 
 
